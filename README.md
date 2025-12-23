@@ -1,7 +1,7 @@
 # AI Image Classifier
 **Author**: Abeer Maheshwari
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ##
 A lightweight **AI-generated image detector** implemented using a small Convolutional Neural Network (CNN). This project builds upon my earlier BeyondAI work and trains a simple binary classifier to distinguish between real images of human faces and AI-generated ones.
