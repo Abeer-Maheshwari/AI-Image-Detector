@@ -32,9 +32,10 @@ This repository includes files for:
 ## Usage
 ### Training the Model
 1. Tweak Hyperparameters to fine tune the model to your liking (optional)
-2. Train the model (or alternatively, use my pretrained model https://www.dropbox.com/scl/fi/rvvflwxqjv7xlvntw7ce6/trained_models.pth?rlkey=auc5xwn3hwgu9vyevvgstahvq&st=47tq9xi3&dl=0)
+2. Train the model by running CNN_train.py (or alternatively, use my pretrained model https://www.dropbox.com/scl/fi/rvvflwxqjv7xlvntw7ce6/trained_models.pth?rlkey=auc5xwn3hwgu9vyevvgstahvq&st=47tq9xi3&dl=0)
 3. Place the resultant file (trained_models.pth) in the same directory as the rest of the files
 
+NOTE: Training and Inference are processes that are hardware intensive and take a considerable amount of time to run.
 
 ### Visualise Loss Landscape
 Generate and display 1D linearly interpolated loss function graphs by running CNN_inference.py
