@@ -11,10 +11,10 @@ from collections import Counter
 import threading
 import time
 
-# Import your model
+# Import model
 from CNN_train import CNN, DEVICE
 
-# GradCAM class (unchanged)
+# GradCAM class
 class GradCAM:
     def __init__(self, model, target_layer):
         self.model = model
@@ -236,4 +236,5 @@ class BeyondAIApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = BeyondAIApp(root)
+
     root.mainloop()
